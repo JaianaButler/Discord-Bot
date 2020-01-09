@@ -1,0 +1,28 @@
+Instructions for adding bot to new server:
+	1.Donwload and setup Discord computer application
+	2.Create a new server in Discord
+	3.Add the bot to the server in web browser using authorization link:
+		https://discordapp.com/oauth2/authorize?client_id=564504524283445248&scope=bot
+	4.Check that all listed dependencies below are downloaded using pip
+	5.Run program in IDE/IDLE while Discord application is open to turn bot online
+	6.Type @help in chat for list of commands
+
+More info on install at:https://www.devdungeon.com/content/make-discord-bot-python
+
+Dependencies:
+youtube_dl
+	python -m pip install -U youtube_dl
+pydictionary
+	pip install PyDictionary
+discord.py
+	pip install discord.py
+discord.py[voice]
+	python -m pip install -U discord.py[voice]
+
+
+
+
+Client ID
+564504524283445248
+Bot Token
+NTY0NTA0NTI0MjgzNDQ1MjQ4.XKo28Q.a80syaraqEYU8ZOlsk1F8E0dC2g
